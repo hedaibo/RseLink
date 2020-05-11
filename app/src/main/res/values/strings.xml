@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">RSE LINK</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="bt_find">Find</string>
+    <string name="bt_start">Start</string>
+    <string name="tv_find">Looking for wireless devices</string>
+    <string name="tv_search">Searching devices ...</string>
+    <string name="press_again">Press again to exit the program</string>
+    <string name="search_success">search Success</string>
+    <string name="network_please_check_the_network">Please open the hot spot Or Connect and device the WIFI in the same network.</string>
+    <string name="network_dialog_title">Please check the network</string>
+    <string name="searcher_out_time_title">Search Timeout</string>
+    <string name="display_lost_host">Lost host</string>
+    <string name="display_connect_fail">Connection Fail</string>
+    <string name="init_touch_event_fila">Init TouchEvent Fail</string>
+    <string name="init_touch_event_fila_message">Initialization event failure</string>
+    <string name="display_connect_fail_message">Please close one or more and then retry this operation</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="tv_voxx">VOXX</string>
+    <string name="tv_voxx_info">REAR SEAT INFOTAINMENT</string>
+    <string name="tv_voxx_device">AVAILABLE MONITORS</string>
+    <string name="tv_scan_device">Scan</string>
+</resources>
