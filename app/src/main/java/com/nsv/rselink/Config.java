@@ -63,7 +63,7 @@ public class Config {
     }
 
     public static class SystemAction {
-        public static final String ACTIVITY_DISPAY_REMOTE = "com.sat.action.display.remote";
+        public static final String ACTIVITY_DISPAY_REMOTE = "com.nsv.action.display.remote";
     }
 
     public static class ActionKey {

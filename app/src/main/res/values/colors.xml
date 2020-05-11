@@ -11,6 +11,6 @@
     <drawable name="bule_light">#00ff66</drawable>
     <drawable name="red_light">#E2364B</drawable>
     <drawable name="color_pink">#ffdb03db</drawable>
-    <drawable name="black_little">#44000000</drawable>
+    <drawable name="black_little">#373844</drawable>
     <color name="scan_corner_color">#0effc2</color>
 </resources>

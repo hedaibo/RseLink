@@ -88,11 +88,12 @@ public class DeviceAdapter extends BaseAdapter {
             //让设备名称和IP地址有所区别
             span.setSpan(new AbsoluteSizeSpan(29), name.length(),  name.length()+address.length()+1, Spanned.SPAN_INCLUSIVE_INCLUSIVE);
             vHolder.deviceName.setText(span);
-            String spName = mContext.getSharedPreferences(SPUtils.SP_NAME, Context.MODE_PRIVATE).getString(SPUtils.SP_CONNECT_NAME, "");
-            if (name.equalsIgnoreCase(spName)){
+//            String spName = mContext.getSharedPreferences(SPUtils.SP_NAME, Context.MODE_PRIVATE).getString(SPUtils.SP_CONNECT_NAME, "");
+            String spName = mContext.getSharedPreferences(SPUtils.SP_NAME, Context.MODE_PRIVATE).getString(SPUtils.SP_CONNECT_IPADDR, "");
+            if (address.equalsIgnoreCase(spName)){
                 vHolder.deviceName.setTextColor(0xff00ff66);
             }else{
-                vHolder.deviceName.setTextColor(Color.BLACK);
+                vHolder.deviceName.setTextColor(Color.WHITE);
             }
 
         }

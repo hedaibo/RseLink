@@ -116,6 +116,7 @@ public class ShowDeviceListActivity extends Activity {
 
 
                 sp.edit().putString(SPUtils.SP_CONNECT_NAME,remoteDeviceInfos.get(position).getName()).commit();
+                sp.edit().putString(SPUtils.SP_CONNECT_IPADDR,serverIp).commit();
 //                Toast.makeText(getApplicationContext(),
 //                        "serverIp:" + serverIp, Toast.LENGTH_SHORT).show();
 

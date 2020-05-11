@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffffff"
+    android:background="@mipmap/device_list_bg"
     android:keepScreenOn="true">
 
     <LinearLayout
@@ -17,10 +17,11 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:padding="5dp"
-        android:text="@string/tv_voxx"
+        android:background="@mipmap/rse_link_zi"
         android:textColor="@drawable/black"
         android:layout_marginTop="10dp"
         android:textStyle="bold"
+        android:visibility="invisible"
         android:textSize="22sp" />
 
     <TextView
@@ -31,7 +32,7 @@
         android:padding="3dp"
         android:textStyle="bold"
         android:text="@string/tv_voxx_info"
-        android:textColor="@drawable/black"
+        android:textColor="@drawable/white"
         android:textSize="18sp" />
 
 
@@ -43,11 +44,11 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/black_little"
                 android:layout_marginTop="3dp"
-                android:paddingLeft="15dp"
-                android:paddingBottom="5dp"
-                android:paddingTop="5dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="7dp"
+                android:paddingTop="7dp"
                 android:text="@string/tv_voxx_device"
-                android:textColor="@drawable/black"
+                android:textColor="@drawable/white"
                 android:textSize="18sp" />
 
         <TextView
@@ -83,7 +84,7 @@
         android:layout_alignTop="@id/view_line"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         android:layout_marginBottom="35dp"
         android:padding="5dp"
         android:scrollbars="none" />
@@ -106,9 +107,9 @@
         android:layout_height="wrap_content"
         android:padding="8dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginLeft="15dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginBottom="15dp"
-        android:textColor="@drawable/black"
+        android:textColor="@drawable/white"
         android:textSize="15sp" />
 
     <ImageView
